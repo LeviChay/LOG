@@ -24,5 +24,10 @@ namespace KukelLOG.Pages
         {
             InitializeComponent();
         }
+
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

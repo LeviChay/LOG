@@ -21,7 +21,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Label Content="Логин" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
-        <TextBox Grid.Column="2" Height="25" Grid.Row="1" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox Grid.Column="2" Height="25" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <Label Content="Пароль" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25" Margin="0,30,0,0"/>
         <PasswordBox Grid.Column="2" Margin="0,30,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
         <Button Content="Вход" Grid.Column="2" Margin="0,60,0,0" Grid.Row="1" VerticalAlignment="Top" Name="BtnLog" Click="BtnLog_Click"/>

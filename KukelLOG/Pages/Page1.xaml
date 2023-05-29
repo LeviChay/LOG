@@ -9,6 +9,25 @@
       Title="Page1">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="257*"/>
+            <ColumnDefinition Width="117"/>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="246*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="151*"/>
+            <RowDefinition Height="161"/>
+            <RowDefinition Height="138*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Имя пользователя" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <TextBox Grid.Column="2" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Логин" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25" Margin="0,40,0,0"/>
+        <TextBox Grid.Column="2" Height="25" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,40,0,0"/>
+        <Label Content="Пароль" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25" Margin="0,81,0,0" RenderTransformOrigin="0.538,2.104"/>
+        <PasswordBox Grid.Column="2" Margin="0,81,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
+        <Button Content="Зарегистрироваться" Grid.Column="1" Margin="61,10,56,0" Grid.Row="2" VerticalAlignment="Top" Name="BtnReg" Click="Register_Click" Height="20" Grid.ColumnSpan="2"/>
+        <Label Content="Повтрить пароль" Grid.Column="1" Grid.Row="1" VerticalAlignment="Top" Height="25" Margin="0,120,0,0" RenderTransformOrigin="0.538,2.104"/>
+        <PasswordBox Grid.Column="2" Margin="0,120,0,0" Grid.Row="1" VerticalAlignment="Top" Height="25"/>
     </Grid>
 </Page>
